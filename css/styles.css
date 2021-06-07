@@ -1,0 +1,43 @@
+body {
+  background-color:#E4F9F5;
+  font-family: arial;
+
+}
+
+h1, h2{
+  color: #11999e;
+}
+
+h4, p {
+  color: #40514e;
+}
+hr {
+  border-style: dotted none none none;
+  border-color: #30e3ca;
+  border-width: 5px;
+  height: 1px;
+  width: 10%;
+}
+table, td {
+  border-collapse: collapse;
+  border-style: none;
+  border-color: black;
+}
+table  {
+  cellspacing : 10;
+}
+
+ul.duties {
+  padding-left: 5px;
+  margin-top: 0;
+  list-style-position: inside;
+}
+
+.headcol {
+  width: 6cm;
+  position: relative;
+}
+
+.job {
+  
+}
