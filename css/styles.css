@@ -1,0 +1,88 @@
+body {
+  background-color:#E4F9F5;
+  font-family: arial;
+
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.col-1 {
+  position: absolute;
+  margin: 0 auto 0 0;
+  width: 300px;
+}
+
+.col-2 {
+  position: relative;
+  margin: 0 0 0 auto;
+  width: 550px;
+}
+
+.header {
+  height: 300px;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.work {
+  position: relative;
+}
+
+.work-row {
+  height: auto;
+  position: relative;
+}
+.workplace {
+  position: relative;
+  margin: 0 auto 10px 0;
+}
+
+.work-dates {
+  position: relative;
+  padding:0;
+  margin: 0;
+  text-align: left;
+}
+
+.job-title {
+  position: relative;
+  top: 5px
+}
+
+img:hover {
+  filter: blur(5px);
+}
+
+h1, h2, h3{
+  color: #11999e;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h4, p {
+  color: #40514e;
+}
+hr {
+  border-style: dotted none none none;
+  border-color: #30e3ca;
+  border-width: 5px;
+  height: 1px;
+  width: 10%;
+  margin: 30px auto;
+}
+table, td {
+  border-collapse: collapse;
+  border-style: none;
+  border-color: black;
+}
+
+
+.duties {
+  margin-top: 0;
+  text-align: left;
+}
+
+.headcol {
+  width: 6cm;
+  position: relative;
+}
