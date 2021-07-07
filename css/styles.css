@@ -3,6 +3,19 @@ body {
   font-family: arial;
 
 }
+
+.clouds {
+  background-image: url("../images/clouds.gif");
+  background-repeat: repeat;
+  background-size: contain;
+  height: 229px;
+}
+.intro {
+  height: 700px;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 3em;
+}
 .container {
   width: 800px;
   margin: 0 auto;
@@ -19,7 +32,7 @@ body {
   width: 550px;
 }
 
-.header {
+.me {
   height: 300px;
   text-align: center;
   padding-bottom: 200px;
@@ -50,10 +63,6 @@ body {
   top: 5px
 }
 
-img:hover {
-  filter: blur(5px);
-}
-
 h1, h2, h3{
   color: #11999e;
   font-family: 'IBM Plex Sans', sans-serif;
@@ -82,6 +91,14 @@ table, td {
   text-align: left;
 }
 
+#skill-head {
+  text-align: center;
+  text-decoration: underline;
+}
+.skills {
+  width: 300px;
+  margin: 0 auto;
+}
 .headcol {
   width: 6cm;
   position: relative;
