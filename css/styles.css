@@ -13,7 +13,7 @@ body {
 .intro {
   height: 700px;
   text-align: center;
-  padding-top: 50px;
+  padding: 50px 175px 0;
   margin: 0 auto;
   font-size: 3em;
   width: 500px;
@@ -22,7 +22,7 @@ body {
 .container {
   width: 800px;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 25px;
 }
 
 .col-1 {
@@ -40,7 +40,7 @@ body {
 .me {
   height: auto;
   text-align: center;
-  padding: 10px 100px;
+  padding: 10px 75px;
   margin: 0 auto;
   width: 700px;
 }
@@ -142,6 +142,18 @@ form {
   width: 50%;
 }
 
+td > * {
+  margin: auto 0;
+}
+
+td > h5 {
+  margin-bottom: 0;
+}
+
+td > p {
+  margin-top: 5px;
+}
+
 .duties {
   margin-top: 0;
   margin-left: 0;
@@ -228,10 +240,15 @@ h1.center {
 }
 
 .logo {
-  padding: 10px;
+  padding: 3px;
+  width: 80%;
+  height: auto;
   margin: 0 auto;
 }
 
+.logo-cell {
+  width: 140px;
+}
 .contact-me {
   padding: 0 100px;
   margin: 0 auto;
