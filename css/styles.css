@@ -11,21 +11,21 @@ body {
 }
 
 .intro {
-  height: 700px;
-  text-align: center;
-  padding: 50px 175px 0;
-  margin: 0 auto;
+  /* height: 700px; */
+  /* text-align: center; */
+  /* padding: 50px 175px 0; */
+  /* margin: 0 auto; */
   font-size: 3em;
-  width: 500px;
+  /* width: 500px; */
 }
 
-.container {
+/* .container {
   width: 800px;
   margin: 0 auto;
   padding: 0 25px;
-}
+} */
 
-.col-1 {
+/* .col-1 {
   position: absolute;
   margin: 0 auto 0 0;
   width: auto;
@@ -35,17 +35,17 @@ body {
   position: relative;
   margin: 0 0 0 auto;
   width: 475px;
-}
+} */
 
 .me {
   height: auto;
   text-align: center;
-  padding: 10px 75px;
+  /* padding: 10px 75px;
   margin: 0 auto;
-  width: 700px;
+  width: 700px; */
 }
 
-.work {
+/* .work {
   margin: 50px auto;
   position: relative;
 }
@@ -53,12 +53,12 @@ body {
 .work-row {
   height: auto;
   position: relative;
-}
+} */
 
-.workplace {
+/* .workplace {
   position: relative;
   margin: 0 auto 10px 0;
-}
+} */
 
 .work-dates {
   color: #40514e;
@@ -92,29 +92,30 @@ body {
 h1 {
   color: #11999e;
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 7rem;
+  /* font-size: 7rem; */
 }
 
 h2 {
   color: #11999e;
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 3rem;
+  /* font-size: 3rem; */
 }
 
 h3 {
   color: #11999e;
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 2rem;
+  margin-bottom: 25px;
+  /* font-size: 2rem; */
 }
 
 h4 {
   color: #40514e;
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; */
 }
 
 h5 {
   color: #40514e;
-  font-size: 1.15rem;
+  /* font-size: 1.15rem; */
 }
 
 p {
@@ -154,12 +155,12 @@ td > p {
   margin-top: 5px;
 }
 
-.duties {
+/* .duties {
   margin-top: 0;
   margin-left: 0;
   padding-left: 10px;
   text-align: left;
-}
+} */
 
 #skill-head {
   text-align: center;
