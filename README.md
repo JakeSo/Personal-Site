@@ -4,6 +4,6 @@ This is currently a work in progress as I learn the necessary technologies to be
 
 The site currently utilizes my knowledge of HTML, CSS, and Bootstrap
 
-You can view the site at jakeso.github.io/Personal-Site
+You can view the site at https://jakeso.github.io/Personal-Site
 
 Thanks for visiting!
