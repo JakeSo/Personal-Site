@@ -75,11 +75,11 @@ body {
   margin-bottom: 10px;
 }
 
-.education {
+#education {
   margin: 50px auto;
 }
 
-.contact {
+#contact {
   text-align: center;
   margin: 50px auto;
 }
@@ -125,6 +125,7 @@ p {
 hr {
   border-style: dotted none none none;
   border-color: #30e3ca;
+  background: none;
   border-width: 5px;
   height: 1px;
   width: 10%;
@@ -167,7 +168,7 @@ td > p {
   text-decoration: underline;
 }
 
-.skills {
+#skills {
   width: 300px;
   margin: 0 auto 0 auto;
 }
