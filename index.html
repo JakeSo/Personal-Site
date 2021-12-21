@@ -15,23 +15,48 @@
 </head>
 
 <body>
-  <div class="clouds">
+  <nav class="nav justify-content-center nav-fill">
+      <a class="nav-link" href="#work">Work</a>
+      <a class="nav-link" href="#education">Education</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#contact">Contact</a>
+  </nav>
+
+  <div class="intro d-flex">
+    <!-- <img src="images/helloworld.gif" class="mx-auto d-block my-5" alt="Hello World!" /> -->
+    <h1 class="display-1">I'm Jake!</h1>
   </div>
 
-  <div class="intro">
-    <img src="images/helloworld.gif" class="mx-auto d-block my-5" alt="Hello World!" />
-    <h1 class="display-1 center m">I'm Jake!</h1>
+  <!-- <script type="text/javascript">
+
+  var elem = document.getElementsByTagName("H1")[0];
+  text = elem.innerText;
+  text.split('');
+  while (true){
+    elem.innerText = "";
+    for (let x in text){
+      elem.innerText = text[x];
+    }
+  }
+  </script> -->
+
+  <div class="me my-5 jumbotron row">
+    <div class="col-sm-4 col-12">
+      <img class="selfie" border-radius="50%" height="300" src="images/me.png" alt="Picture of Jake Sorrentino">
+    </div>
+    <div class="col-sm-8 col-12 p-5">
+      <h2>Jake Sorrentino</h2>
+      <h4><i>Computer Science Student and Freelance Web Developer</i></h3>
+        <p>Whether it's websites, softwares, or handcrafted beverages, I thrive on making things for people to love.</p>
+    </div>
   </div>
-  <div class=" lead me my-5 jumbotron">
-    <img class="my-4" border-radius="50%" height="300" src="images/me.png" alt="Picture of Jake Sorrentino">
-    <h2>Jake Sorrentino</h2>
-    <h4><i>Computer Science Student and Freelance Web Developer</i></h3>
-      <p>Whether it's websites, softwares, or handcrafted beverages, I thrive on making things for people to love.</p>
-  </div>
+
+
+
 
   <div class="container w-55 ms-7 pe-0 justify-content-center">
     <hr>
-    <div class="work">
+    <div id="work">
       <h3>Work Experience</h3>
       <div class="row row-cols-2 my-3 justify-content-end">
         <div class="col col-4">
@@ -72,7 +97,7 @@
     </div>
     <hr>
 
-    <div class="education">
+    <div id="education">
 
       <h3>Education</h3>
       <div class="row row-cols-2 justify-content-center">
@@ -106,7 +131,7 @@
     </div>
 
     <hr>
-    <div class="skills">
+    <div id="skills">
       <h3 id="skill-head">Skills</h3>
       <table class="skill-table">
         <tr>
@@ -152,7 +177,7 @@
       </table>
     </div>
 
-    <div class="contact">
+    <div id="contact">
       <h3>Let's Chat!</h3>
       <a href="contact.html" class="btn">Contact Me</a>
     </div>

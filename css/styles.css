@@ -1,6 +1,23 @@
 body {
-  background-color: #E4F9F5;
+  background: #012a4a;
+  /* background: radial-gradient(circle, rgba(5,10,48,1) 75%, rgba(0,12,102,1) 100%); */
   font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  height: 10%;
+  align-items: middle;
+  background-color: #013a63;
+  font-size: 1.25rem;
+}
+
+.selfie {
+  height: 250px;
+}
+
+.nav-link{
+  font-weight: 100;
+  color: #a9d6e5;
 }
 
 .clouds {
@@ -11,10 +28,9 @@ body {
 }
 
 .intro {
-  /* height: 700px; */
-  /* text-align: center; */
-  /* padding: 50px 175px 0; */
-  /* margin: 0 auto; */
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
   font-size: 3em;
   /* width: 500px; */
 }
@@ -38,11 +54,12 @@ body {
 } */
 
 .me {
-  height: auto;
+  /* height: auto; */
   text-align: center;
-  /* padding: 10px 75px;
+  align-items: center;
+  /* padding: 10px 75px; */
   margin: 0 auto;
-  width: 700px; */
+  width: 700px;
 }
 
 /* .work {
@@ -61,7 +78,7 @@ body {
 } */
 
 .work-dates {
-  color: #40514e;
+  color: white;
   position: relative;
   padding: 0;
   margin: 0;
@@ -86,45 +103,40 @@ body {
 
 .footer {
   height: 100px;
-  background-color: #11999e;
+  background-color: #013a63;
 }
 
-h1 {
-  color: #11999e;
+h1, h2 {
+  color: #7EC8E3;
   font-family: 'IBM Plex Sans', sans-serif;
   /* font-size: 7rem; */
 }
 
-h2 {
-  color: #11999e;
-  font-family: 'IBM Plex Sans', sans-serif;
-  /* font-size: 3rem; */
-}
 
 h3 {
-  color: #11999e;
+  color: #7EC8E3;
   font-family: 'IBM Plex Sans', sans-serif;
   margin-bottom: 25px;
   /* font-size: 2rem; */
 }
 
 h4 {
-  color: #40514e;
+  color: lightgray;
   /* font-size: 1.25rem; */
 }
 
 h5 {
-  color: #40514e;
+  color: #468faf;
   /* font-size: 1.15rem; */
 }
 
 p {
-  color: #40514e;
+  color: #a9d6e5;
 }
 
 hr {
   border-style: dotted none none none;
-  border-color: #30e3ca;
+  border-color: #61a5c2;
   background: none;
   border-width: 5px;
   height: 1px;
@@ -156,12 +168,13 @@ td > p {
   margin-top: 5px;
 }
 
-/* .duties {
-  margin-top: 0;
-  margin-left: 0;
-  padding-left: 10px;
-  text-align: left;
-} */
+td {
+  color: #61a5c2;
+}
+
+li {
+  color: #a9d6e5;
+}
 
 #skill-head {
   text-align: center;
