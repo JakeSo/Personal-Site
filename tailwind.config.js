@@ -6,9 +6,12 @@ module.exports = {
       colors: {
         'primary': '#1C538E',
         'secondary': '#7B89EE',
-      }
+      },
+      transform: ['hover', 'focus'],
+      scale: ['active', 'group-hover'],
     },
   },
   plugins: [],
+  
 }
 
